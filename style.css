@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #04080f;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 45px;
+}
+
+.a-menu:hover{
+background-color: #9046CF;
+
+}
+
+nav {
+    height: 50px;
+    background-color: #04080f;
+}
+
+#ul-principal {
+    background-color: #04080f;
+    margin: auto ;
+    width: 90%;
+}
+
+.li-p {
+    line-height: 50px;
+    float: left;
+}
+
+ul li ul li {
+    background-color: #04080f;
+}
+
+.top10 {
+ display: none;
+}
+
+.img-quadrada{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.img-retan{
+    width: 600px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logo{
+    text-align: center;
+}
+
+footer{
+    background-color:#04080f ;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.made{
+    color:#9046CF;
+    text-align: center;
+}
+
+.links{
+    color: #FF5D73;
+}
+ .links:hover{
+    color:#9046CF;
+}
+
+ .links:visited{
+    color: #9046CF;
+}
+
+body{
+    background-image: url(./img/back-bnh.png) ;
+    background-repeat:repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#a-menu{
+   color: white;
+    display: block;
+   text-decoration: none;
+   padding: 0px 50px;
+}
+#a-menu:hover{
+    background-color: #9046CF;
+}
+
+article{
+    background-color:lightskyblue;
+    padding: 25px;
+    text-align: justify;
+    margin-left: 175px ;
+    margin-right: 175px; 
+    margin-top: 45px;
+}
+
+.h1s{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 45px;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.p-vazio{
+    background-color: aqua;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.alinhar-centro{
+    text-align: center;
+}
+
+.imgs-h1s{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 10px;
+}
+
+.polaroids{
+    display: inline-block;
+    width: 350px;
+    border: 15px solid whitesmoke;
+    border-bottom: 50px solid whitesmoke;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.polaroids-center{
+    display: block;
+    width: 350px;
+    border: 15px solid whitesmoke;
+    border-bottom: 50px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.ajustar{
+    text-align: justify;
+    padding-left: 15px;
+}

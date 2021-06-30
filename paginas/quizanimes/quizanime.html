@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" type="image/gif" href="../../img/favicon.ico">
+</head>
+<body>
+    <div class="start_btn"><button>Começar</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Regras do quiz:</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá somente <span>15 segundos</span> para responder cada questão.</div>
+            <div class="info">2. Pense bem!</div>
+            <div class="info">3. Você não pode selecionar mais de uma opção.</div>
+            <div class="info">4. Você não pode sair do quiz enquanto joga.</div>
+            <div class="info">5. Todas as questões valem pontos.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz animes</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo:</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+               
+            </div>
+        </section>
+       
+        <footer>
+            <div class="total_que">
+               
+            </div>
+            <button class="next_btn">Próximo</button>
+        </footer>
+    </div>
+   
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o quiz!</div>
+        <div class="score_text">
+      
+        </div>
+        <div class="buttons">
+            <button class="restart">Recomeçar</button>
+            <button class="quit">Sair</button>
+        </div>
+    </div>
+      <!-- JS que contém minhas questões -->
+    <script src="quiz.js"></script>
+    <!-- JS que contém os códigos do quiz -->
+    <script src="app.js"></script>
+</body>
+</html>
+</html>
